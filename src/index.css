@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+  background-color: #2D004F;
+  color: #000;
+  overflow: hidden;
+}
+
+/* Эффект пульсации для неоновых элементов */
+@keyframes neonPulse {
+  from { box-shadow: 0 0 10px #EAFF00; }
+  to { box-shadow: 0 0 25px #EAFF00; }
+}
+
+.neon-card {
+  animation: neonPulse 1.5s infinite alternate;
+}
